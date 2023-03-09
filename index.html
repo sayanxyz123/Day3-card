@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script>
+       let x= React.createElement('div',{style:{
+        display:"flex",
+        justifyContent:"center",
+        marginTop:"60px"
+        // alignItems:"center"
+       }},React.createElement('div',{
+        style:{
+         height:"350px",
+         width:"250px",
+         border:"1px solid black"   
+        }
+       },[
+        React.createElement('img',{src:"https://media.istockphoto.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?b=1&k=20&m=1179420343&s=612x612&w=0&h=c9Z3DyUg-YvgOQnL_ykTIgVTWXjF-GNo4FUQ7i5fyyk=",height:"80px",width:"80px",style:{
+            borderRadius:"50%",
+            marginLeft:"80px",
+            marginTop:"20px"
+            
+
+        }},),
+        React.createElement('h2',{style:{
+            
+            display:"flex",
+            justifyContent:"center",
+            color:"#a58897"
+        }},"Sayantan Roy"),
+        React.createElement('p',{style:{
+        color:"#455",
+        marginTop:"none",
+        display:"flex",
+            justifyContent:"center",
+            marginTop:"-10px"
+    }},"I enjoy drink a cup of coffee"),
+    React.createElement('div',{style:{
+        display:"flex",
+    justifyContent:"space-Evenly",
+    color:"#8F00FF"
+    }},[
+    React.createElement('h4',null,"60"),
+    React.createElement('h4',null,"90"),
+    React.createElement('h4',null,"120")  
+    ]),
+    React.createElement('div',{style:{
+        display:"flex",
+    justifyContent:"space-Evenly",
+    marginTop:"-30px",
+    color:"#455",
+    marginLeft:"20px"
+    }},[
+    React.createElement('p',null,"shoot"),
+    React.createElement('p',null,"following"),
+    React.createElement('p',null,"followers")  
+    ]),
+    React.createElement('div',{style:{
+        display:"flex",
+    justifyContent:"space-Evenly",
+    // marginTop:"-10px",
+    // marginLeft:"20px"
+    }},[
+    React.createElement('button',{style:{
+        height:"30px",
+        width:"80px",
+        color:"white",
+        border:"none",
+        backgroundColor:"#8F00FF",
+        borderRadius:"6px"
+
+    }},"FOLLOW"),
+    React.createElement('button',{style:{
+        height:"30px",
+        width:"80px",
+        color:"white",
+        border:"none",
+        backgroundColor:"#DE3163",
+        borderRadius:"6px"
+
+    }},"MESSAGE")
+     
+    ])
+
+       ]))
+        ReactDOM.render(x,document.getElementById('root'))
+    </script>
+    
+</body>
+</html>
